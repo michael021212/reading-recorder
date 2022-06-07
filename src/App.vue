@@ -8,6 +8,11 @@
           Home
         </router-link>
       </el-menu-item>
+      <el-menu-item index="2">
+        <router-link to="/search">
+          Search
+        </router-link>
+      </el-menu-item>
       <!-- サブメニューを定義 -->
       <el-submenu index="3">
         <template v-slot:title>Support</template>
@@ -20,7 +25,7 @@
       </el-submenu>
     </el-menu>
     <!-- ルーティング時の表示領域を準備 -->
-    <route-view/>
+    <router-view/>
   </div>
 </template>
 
