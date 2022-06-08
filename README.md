@@ -1,4 +1,18 @@
 # reading-recorder
+読書記録アプリです。
+Google Books APIと連携して書籍情報を取得しています。
+
+## 開発環境
+Mac OS Catalina 10.15.7
+node v14.17.0
+npm 6.14.13
+Vue.js 2.6.14
+Vue CLI @vue/cli 5.0.4
+
+## 使用技術
+Vuex
+Vue Router
+element
 
 ## Project setup
 ```
